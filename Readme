@@ -8,40 +8,36 @@ The goal is to bring essential business operations into one centralized system w
 
 ## Technology Stack
 
-The following technologies are intended for the project. Update this list to match the actual implementation.
-
-- **Frontend:** HTML5, CSS3, JavaScript
+- **Frontend:** React.js, HTML5, CSS3, JavaScript
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Database Hosting:** MongoDB Atlas
-- **Authentication:** JWT and bcryptjs
+- **Database:** SQLite
+- **Database Driver:** better-sqlite3
+- **Authentication:** JSON Web Tokens (JWT)
 - **API Architecture:** REST API
-- **Hosting:** Render
 - **Version Control:** Git and GitHub
 
 ## Core Modules
 
-- **Dashboard:** Centralized overview of business operations.
+- **Dashboard:** Overview of business operations.
 - **Product Management:** Create, update, and organize product information.
 - **Inventory Management:** Track stock quantities and product availability.
-- **Production Management:** Organize production-related information and workflows.
-- **Sales Operations:** Support sales-related business activities.
-- **Role-Based Access Control:** Restrict access according to user roles.
-- **Financial Visibility:** Limit access to sensitive financial information.
-- **Audit History:** Support accountability and tracking of important changes.
+- **Production Management:** Organize production workflows.
+- **Sales Operations:** Manage sales-related activities.
+- **Role-Based Access Control:** Manage permissions based on user roles.
+- **Financial Visibility:** Restrict access to sensitive financial information.
+- **Audit History:** Track important business changes.
 
 ## Security
 
-The system is designed with an emphasis on authenticated access, protected business information, server-side validation, and appropriate authorization for sensitive operations.
+Designed with authenticated access, server-side validation, and role-based authorization to help protect business information.
 
 ## Project Objective
 
-The objective of Raeezi Business OS is to simplify clothing business operations by connecting essential workflows in a single, organized platform that can evolve alongside the business.
+To simplify apparel business operations by bringing essential workflows into one centralized, organized, and scalable platform.
 
 ## Project Details
 
 - **Project Name:** Raeezi Business OS
 - **Industry:** Apparel and Clothing
 - **Application Type:** Web-Based Business Management System
-- **Development Status:** In development / according to the current implementation
-- **Technologies:** React.js, JavaScript, Node.js, Express.js, SQLite, better-sqlite3, JWT, HTML5, and CSS3.
+- **Development Status:** In Development
